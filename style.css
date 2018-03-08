@@ -69,6 +69,7 @@ h1 {
 	padding: 10px;
 	color: rgba(230, 7, 18, 0.5);
 	transition: all .2s ease-in-out
+	border: none;
 }
 
 .btn:hover {
