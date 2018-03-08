@@ -1,0 +1,80 @@
+body { 
+  background: url(trippy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1000px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+
+.container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.heading {
+	margin-top: 220px;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 2s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 2s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 2s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+.btn {
+	background-color: rgba(184, 225, 159, 0.1);
+	padding: 10px;
+	color: rgba(230, 7, 18, 0.5);
+	transition: all .2s ease-in-out
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+input[value="Enlighten Yourself"] {
+	font-family: 'Pacifico', cursive;
+}
