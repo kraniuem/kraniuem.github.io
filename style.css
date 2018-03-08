@@ -896,3 +896,29 @@ font-size: 3vh;
   font-family: 'Pacifico', cursive;
     }
 
+@media 
+    (-webkit-min-device-pixel-ratio: 3)
+    and (min-resolution: 192dpi)and max-width:640px){
+font-size: 3vh;
+	font-size: 3vw;
+	        background: url("trippy.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Pacifico', cursive;
+}
+
+/* samsung s7 landscape*/
+@media 
+    (-webkit-min-device-pixel-ratio: 3) 
+    and (min-resolution: 192dpi){
+font-size: 3vh;
+	font-size: 3vw;
+	        background: url("trippy.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Pacifico', cursive;
+}
