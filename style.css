@@ -80,3 +80,8 @@ input[value="Enlighten Yourself"] {
 	font-family: 'Pacifico', cursive;
 	border:none;
 }
+
+#mc_embed_signup input {
+     border: none; 
+    -webkit-appearance: none;
+}
