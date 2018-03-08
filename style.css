@@ -78,8 +78,9 @@ h1 {
 
 input[value="Enlighten Yourself"] {
 	font-family: 'Pacifico', cursive;
-	border:none;
 }
 
-
-
+#mc_embed_signup input {
+     border: none !important; 
+    -webkit-appearance: none;
+}
